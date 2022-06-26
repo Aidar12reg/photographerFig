@@ -845,31 +845,31 @@ body {
 }
 
 @media (min-width: 768px) {
-  .prev-mainslider {
+  .swiper-button-prev {
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
 
-  .prev-mainslider:hover {
+  .swiper-button-prev:hover {
     background-color: #CF404D;
   }
 
-  .prev-mainslider:active {
+  .swiper-button-prev:active {
     background-color: #330f12;
   }
 
-  .next-mainslider {
+  .swiper-button-next {
     -webkit-transition: all 0.2s linear;
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
 
-  .next-mainslider:hover {
+  .swiper-button-next:hover {
     background-color: #CF404D;
   }
 
-  .next-mainslider:active {
+  .swiper-button-next:active {
     background-color: #330f12;
   }
 }
