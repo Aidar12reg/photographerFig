@@ -271,9 +271,6 @@ h3 {
 }
 
 .slider-main .swiper-button-prev {
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
   color: #fff;
   font-size: 16px;
   line-height: 131%;
@@ -292,18 +289,7 @@ h3 {
   font-size: 0;
 }
 
-.slider-main .swiper-button-prev:hover {
-  background-color: #CF404D;
-}
-
-.slider-main .swiper-button-prev:active {
-  background-color: #330f12;
-}
-
 .slider-main .swiper-button-next {
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
   color: #fff;
   font-size: 16px;
   line-height: 131%;
@@ -320,14 +306,6 @@ h3 {
 
 .slider-main .swiper-button-next:after {
   font-size: 0;
-}
-
-.slider-main .swiper-button-next:hover {
-  background-color: #CF404D;
-}
-
-.slider-main .swiper-button-next:active {
-  background-color: #330f12;
 }
 
 .slide-main {
@@ -866,6 +844,36 @@ body {
   }
 }
 
+@media (min-width: 768px) {
+  .prev-mainslider {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  .prev-mainslider:hover {
+    background-color: #CF404D;
+  }
+
+  .prev-mainslider:active {
+    background-color: #330f12;
+  }
+
+  .next-mainslider {
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  .next-mainslider:hover {
+    background-color: #CF404D;
+  }
+
+  .next-mainslider:active {
+    background-color: #330f12;
+  }
+}
+
 @media (min-width: 1440px) {
   .grey-text {
     margin-bottom: 62px;
@@ -1070,13 +1078,5 @@ body {
 
   .sidebar__title {
     margin-bottom: 40px;
-  }
-
-  .nav-sidebar__item {
-    margin-bottom: 30px;
-  }
-
-  .nav-sidebar__item:last-child {
-    margin-bottom: 0;
   }
 }
